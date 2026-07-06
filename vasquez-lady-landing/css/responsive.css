@@ -1,0 +1,85 @@
+/* Media queries: tablet */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    .section-padding {
+        padding: 5rem 0;
+    }
+
+    .logo-principal {
+        width: 210px;
+    }
+
+    .formulario-reserva,
+    .panel-beneficio,
+    .testimonio-card,
+    .plan-card {
+        padding: 2rem;
+    }
+
+    .hero-confianza {
+        grid-template-columns: repeat(3, auto);
+        justify-content: start;
+    }
+
+    .carrusel-espacios img {
+        height: 420px;
+    }
+
+    .carousel-caption {
+        right: 2rem;
+        bottom: 3rem;
+        left: 2rem;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1.65rem;
+    }
+}
+
+/* Media queries: escritorio */
+@media (min-width: 992px) {
+    h1 {
+        font-size: 3.7rem;
+    }
+
+    .hero {
+        min-height: 86vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-texto {
+        max-width: 620px;
+        font-size: 1.15rem;
+    }
+
+    .navbar {
+        padding: 1rem 0;
+    }
+
+    .tarjeta-servicio .card-img-top {
+        height: 240px;
+    }
+
+    .carrusel-espacios img {
+        height: 500px;
+    }
+
+    .plan-destacado {
+        transform: translateY(-0.75rem);
+    }
+}
+
+/* Media queries: pantallas amplias */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
