@@ -59,13 +59,6 @@ Una variable CSS es un valor reutilizable que se declara normalmente dentro de `
 
 En este proyecto, `css/base.css` define variables como `--color-principal`, `--color-secundario`, `--color-menta`, `--color-lavanda`, `--color-fondo` y `--fuente-principal`. Los demás estilos consumen esas variables, por ejemplo: `background-color: var(--color-principal);`.
 
-## Publicación en GitHub Pages
-1. Crear un repositorio público llamado `vasquez-lady-landing`.
-2. Subir el contenido de esta carpeta a la rama `main`.
-3. Abrir **Settings > Pages**.
-4. Seleccionar **Deploy from a branch**, rama `main` y carpeta `/ (root)`.
-5. Guardar y copiar el enlace generado.
-
 ## Fuentes de imágenes e iconos
 - Imágenes: recursos visuales generados con OpenAI para este proyecto y optimizados localmente en formato JPG.
 - Iconos: Bootstrap Icons.
